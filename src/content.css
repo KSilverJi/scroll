@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    text-transform: uppercase;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+h1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -30px;
+    letter-spacing: 25px;
+	color: #fff;
+	font: 900 60px Montserrat;
+	text-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.section-1 {
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/desert.jpg") no-repeat center center / cover;
+}
+
+.section-2 {
+    background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/forest.jpg) center center / cover;
+}
