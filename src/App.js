@@ -1,12 +1,11 @@
 import React from "react";
 import Content from "./Content";
-import Division from "./Division";
+import Typography from "./Typography";
 
 function App() {
   return (
     <div>
-      <Content />
-      <Division />
+      <Typography />
     </div>
   );
 }

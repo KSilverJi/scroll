@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+
+.typo {
+    display: flex;
+	align-items: flex-start;
+	justify-content: center;
+    height: 1000vh;
+}
+
+span {
+    position: sticky;
+    top: calc(50% - 50px);
+    font-family: "Fredoka One", sans-serif;
+    font-size: 120px;
+}
+
+.t2 {
+    margin-top: 100vw;
+}
+.t3 {
+    margin-top: 200vw;
+}
+.t4 {
+    margin-top: 300vw;
+}
+.t5 {
+    margin-top: 400vw;
+}
+
+.bg {
+    position: absolute;
+    width: 150vw;
+    height: 500vw;
+    background-image: url(https://images.unsplash.com/photo-1538291323976-37dcaafccb12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80);
+    background-size: cover;
+    z-index: -1;
+    -webkit-filter: blur(120px);
+    filter: blur(120px);
+    top: -50vw;
+}
